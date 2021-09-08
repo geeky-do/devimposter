@@ -1,7 +1,7 @@
 ---
-title: A simple post
-date: '2020-10-18'
-tags: [demo-content, simple-post]
+title: Let there be light
+date: '2021-09-08'
+tags: [first-post, introduction]
 description: Meditation gentrify fam, yuccie kickstarter brunch vape. Pitchfork freegan biodiesel bicycle rights. Semiotics flexitarian four loko XOXO raw denim chartreuse.
 permalink: posts/{{ title | slug }}/index.html
 ---
