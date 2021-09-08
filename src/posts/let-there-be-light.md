@@ -2,11 +2,11 @@
 title: Let there be light
 date: '2021-09-08'
 tags: [first-post, introduction]
-description: Meditation gentrify fam, yuccie kickstarter brunch vape. Pitchfork freegan biodiesel bicycle rights. Semiotics flexitarian four loko XOXO raw denim chartreuse.
+description: This is the first blog post and it's going to be about making a blog of course! .
 permalink: posts/{{ title | slug }}/index.html
 ---
 
-Meditation gentrify fam, yuccie kickstarter brunch vape. Pitchfork freegan biodiesel bicycle rights. Semiotics flexitarian four loko XOXO raw denim chartreuse. Cray ramps microdosing everyday carry bicycle rights
+This is the first blog post and it's going to be about making a blog of course! I have __checked__ and almost every blog starts with how that person chose the way to build this blog that you are reading now. 
 
 ## How about a `<blockquote>`?
 
