@@ -26,10 +26,10 @@ This humbling experience triggered my imposter syndrome and overwhelmed me quite
 
 ## Hosting
 
-This is where is I started, don't ask me why but I first wanted to pick a domain. I chose [bluehost](https://www.bluehost.com/) because it was the cheapest. Ok easy enough. I ended up paying twice because I got confused by my two hyper cats but the hardest part was the domain name. Naming is hard.
+This is where is I started, don't ask me why but I first wanted to pick a domain. I chose [Netlify](https://www.netlify.com/) because it was free. Ok easy enough and it has a nice CI built in.
 
 ## How to build a blog?
-Well since I went with [bluehost](https://www.bluehost.com/) it somehow installed [WordPress](https://www.wordpress.com/) somewhere in the beginning during my onboarding. I have no doubt they asked me for permission but I don't recall it. So at that moment I faced a decision am I going to write a tech blog but use something like WordPress? People would eat me alive surely. It's scandalous! How am I to show my prowess if I don't build everything myself?!
+So at that moment I faced a decision am I going to write a tech blog but use something like [WordPress](https://www.wordpress.com) ? People would eat me alive surely. It's scandalous! How am I to show my prowess if I don't build everything myself?!
 > Stop! don't be like that. Building something fast and quickly is nice and if it's good enough for millions of people then it's good enough for me, right?
 
 Wrong. 
