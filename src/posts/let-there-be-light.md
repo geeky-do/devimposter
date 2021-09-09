@@ -9,6 +9,8 @@ permalink: posts/{{ title | slug }}/index.html
 This is the first blog post and it's going to be about making a blog of course! I have __checked__ and almost every developer blog starts with 
 > I built this blog you are reading now with xxx and here is why.
 
+Now I am going to share my experience but don't expect a detailed step by step guide for each framework. Each one has one of those guides and they do it far better than I could.
+
 ## First things first
 I am an engineer so naturally I did my research before making this crucial decision. In three days I re-did this blog in three different frameworks. Why you might ask? Because apparently I am horrible at researching blogs. 
 
