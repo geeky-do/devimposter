@@ -12,7 +12,7 @@ This is the first blog post and it's going to be about making a blog of course! 
 Now I am going to share my experience but don't expect a detailed step by step guide for each framework. Each one has one of those guides and they do it far better than I could.
 
 ## First things first
-I am an engineer so naturally I did my research before making this crucial decision. In three days I re-did this blog in three different frameworks. Why you might ask? Because apparently I am horrible at researching blogs. 
+I am an engineer so naturally I did my research before making this crucial decision. In three days I re-did this blog in three different frameworks. Why you might ask? Because apparently I am horrible at researching how to make blogs. 
 
 
 You see I could start by saying that I do this for a living. That is simply not true though. I am a backend engineer, I get hired and there is usually a whole bunch of code already there. I build new APIs, add a database table, do a risky migration or some other things but not really build blogs from scratch. 
@@ -26,7 +26,7 @@ This humbling experience triggered my imposter syndrome and overwhelmed me quite
 
 ## Hosting
 
-This is where is I started, don't ask me why but I first wanted to pick a domain. I chose [Netlify](https://www.netlify.com/) because it was free. Ok easy enough and it has a nice CI built in.
+This is where is I started, don't ask me why but I first wanted to pick a domain. I chose [Netlify](https://www.netlify.com/) because it was free. Ok easy enough and it comes with a nice CI built in. I must admit they make it so easy to get up and running fast and they are also offering a ton of features on the free tier. I will certainly consider paying soon.
 
 ## How to build a blog?
 So at that moment I faced a decision am I going to write a tech blog but use something like [WordPress](https://www.wordpress.com) ? People would eat me alive surely. It's scandalous! How am I to show my prowess if I don't build everything myself?!
@@ -57,8 +57,6 @@ Enter [Eleventy](https://www.11ty.dev/). What a breeze of fresh air that was. It
 
 
 
-What I usually do for putting alert box (e.g. Note or Warning) in markdown texts (not only when using pandoc but also every where that markdown is supported) is surrounding the content with two horizontal lines:
-
 ---
 **NOTE**
 
@@ -70,6 +68,8 @@ I am sure I will try [Hugo](https://gohugo.io/) next time because it also looks 
 
 
 ## Conclusion
+
+I didn't start off with a clear goal in mind and I would be lying if I said that I didn't like trying different things even if they didn't pan out because that's half the fun. However my absolute recommendation is to go with a simple generator (there are others beside 11ty out there) in a combination with Netlify. 
 ## Blogs that helped me along the way
 
 1. [The one I wish I listened to earlier](https://iainbean.com/posts/2020/your-blog-doesnt-need-a-javascript-framework/)
