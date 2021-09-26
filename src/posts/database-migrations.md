@@ -1,7 +1,7 @@
 ---
 title: Database Migrations
 date: "Created"
-tags: []
+tags: [database-migrations, backend, schema, rollback]
 description: Migrations can be tricky! 
 permalink: posts/{{ title | slug }}/index.html
 ---
