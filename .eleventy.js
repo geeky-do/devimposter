@@ -5,6 +5,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const htmlmin = require('html-minifier')
 const fs = require('fs');
 const path = require('path');
+const pluginSEO = require("eleventy-plugin-seo");
 
 const isDev = process.env.APP_ENV === 'development';
 const isProd = process.env.ELEVENTY_ENV === 'production'
@@ -27,6 +28,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(pluginSEO, require("./src/data/seo.json"));
 
   // setup mermaid markdown highlighter
   const highlighter = eleventyConfig.markdownHighlighter;

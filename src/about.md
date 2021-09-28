@@ -1,7 +1,8 @@
 ---
 title: About Dina Youssef
 layout: about.njk
-name: Dina Youssef
+name: Dina 
+excerpt: About Dina Youssef
 image: '/images/robin.jpeg'
 ---
 

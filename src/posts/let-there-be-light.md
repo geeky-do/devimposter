@@ -3,6 +3,7 @@ title: Let there be light
 date: '2021-09-08'
 tags: [first-post, introduction]
 description: This is the first blog post and it's going to be about making a blog of course! .
+excerpt: How to make blogs using Gatsby, WordPress, Eleventy and Netlify!
 permalink: posts/{{ title | slug }}/index.html
 ---
 
