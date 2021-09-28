@@ -3,6 +3,7 @@ title: Database Migrations
 date: "Created"
 tags: [database-migrations, backend, schema, rollback]
 description: I talk about database migrations and their problems! 
+excerpt: I talk about database migrations and their problems! 
 permalink: posts/{{ title | slug }}/index.html
 ---
 
