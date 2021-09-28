@@ -16,7 +16,7 @@ permalink: posts/{{ title | slug }}/index.html
   
 }.gsub( /^$\n/, '')
 
-message = ERB.new(template, 0, "%<>")
+message = ERB.new(tedowncasemplate, 0, "%<>")
 
 
 # Produce result.
@@ -25,7 +25,7 @@ puts email
 
 
 dirname = "src/posts/"
-file_name = title.strip + ".md"
+file_name = title.gsub(/\s+/, "-").downcase + ".md"
 FileUtils.mkdir_p(dirname) unless Dir.exists?(dirname)
 f = File.open(File.join(Dir.pwd, dirname, file_name),"w+")
 ##fill the content
