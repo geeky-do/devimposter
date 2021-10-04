@@ -16,7 +16,7 @@ permalink: posts/{{ title | slug }}/index.html
   
 }.gsub( /^$\n/, '')
 
-message = ERB.new(tedowncasemplate, 0, "%<>")
+message = ERB.new(template, 0, "%<>")
 
 
 # Produce result.
