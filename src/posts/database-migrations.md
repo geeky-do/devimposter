@@ -1,6 +1,6 @@
 ---
 title: Database Migrations
-date: "Created"
+date: "2021-09-28"
 tags: [database-migrations, backend, schema, rollback]
 description: I talk about database migrations and their problems! 
 excerpt: I talk about database migrations and their problems! 
