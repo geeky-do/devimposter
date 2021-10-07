@@ -12,4 +12,4 @@ I am bilingual in my thirties, and I have lived on three different continents. C
 
 I plan on sharing tech content, but there is an excellent chance you might see the odd thing here and there. I learn things by doing so; I will most likely share something I have done. So what do I do? At this moment, I am a backend engineer, but I used to be a mobile engineer. I am most comfortable with Python and Java, but I have previously used Javascript, Kotlin, and Swift.
 
-Disclaimer: All opinions are my own and not my current (or previous) employers. 
+**Disclaimer**: All opinions are my own and not my current (or previous) employers. 
