@@ -2,12 +2,12 @@ require "erb"
 require 'fileutils'
 
 title = ARGV[0]
-
+date = Time.now.strftime("%Y-%m-%d")
 # Create template.
 template = %q{
 ---
 title: <%= title %>
-date: "Created"
+date: "<%= date %>"
 tags: []
 description: xxx 
 excerpt: fun-for-seo 
