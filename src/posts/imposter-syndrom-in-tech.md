@@ -56,9 +56,15 @@ Doubtless, if you have come across the term, then you have come across the "Dunn
 
 ![Dunning Kruger effect](../../images/dk4.png)
 
-If you ask to plot myself on that chart I would say I am a resident of Mt Stupid only occasionally leaving to slide down to valley of despair and then run back up to my mountain.
+If you ask me to plot myself on that chart I would say I am a resident of Mt Stupid only occasionally leaving to slide down to the valley of despair and then run back up to my mountain.
 
+I can tell you that I rationally believe I am good at my job, that I am not falsely humble as I can tell you with precision what I can and can't do. I can also say that I am confident I have made every place I worked with slightly better. I can assure you I am constantly learning and improving. But, I can also state with equal confidence that none of this makes a single iota of difference against the onslaught of my imposter syndrome. 
 
+# Solution
+
+[ maniacal laughter ]
+
+Seriously, I am writing this just to exercise the ability to speak of it but I am afraid this will always be a pain in my life.
 
 
 
