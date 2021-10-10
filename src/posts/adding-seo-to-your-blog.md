@@ -1,6 +1,6 @@
 ---
 title: Adding SEO to your blog
-date: "2021-10-5"
+date: "2021-10-05"
 tags: [SEO, eleventy, tags, breadcrumbs, robots, optimize, google, bing, permalinks ]
 description: How to add SEO tags to an eleventy based site 
 excerpt: How to add SEO tags to an eleventy based site
