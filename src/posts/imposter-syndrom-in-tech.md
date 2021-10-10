@@ -2,8 +2,8 @@
 title: I am an imposter
 date: "Created"
 tags: [imposter syndrome, tech, dunning–kruger, knowledge, mental health ] 
-description: I have always suffered from imposter syndrome 
-excerpt: I have always suffered from imposter syndrome, it is so common in the software industry.
+description: I have always suffered from imposter syndrome and I am afraid always will.
+excerpt: I have always suffered from imposter syndrome. It is very common in the software industry. It can lead to burnout among other things.
 permalink: posts/{{ title | slug }}/index.html
 ---
   
