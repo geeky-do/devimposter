@@ -21,7 +21,7 @@ Ok, so some phrases that would help you navigate this landmine.
 - DNS: Domain Name System
 - BGP: Border Gateway Protocol
 
-Sorry, not very helpful, so let's break it down a bit with an example. So DNS is an address that helps you find where a dentist is because you have a toothache. So you Dentist Tooth is at Dentist Street. So BGP is the actual physical sign on the road of Dentist Street that says here resides Dentist Tooth. So if you go down to  Dentist Street, you can't find the location of  Dentist Tooth. So what does this mean with Facebook? They effectively took themselves offline, the way we all dream about but can't do. So they still existed, but as far as the internet is concerned, they didn't because there was no way to find them. 
+Sorry, not very helpful, so let's break it down a bit with an example. So DNS is an address that helps you find where a dentist is because you have a toothache. So Dentist Tooth is at Dentist Street. So BGP is the actual physical sign on the road of Dentist Street that says here resides Dentist Tooth. So if you go down to  Dentist Street, you can't find the location of  Dentist Tooth. So what does this mean with Facebook? They effectively took themselves offline, the way we all dream about but can't do. So they still existed, but as far as the internet is concerned, they didn't because there was no way to find them. 
 
 But if you want the meaty technical details, then the [CloudFare blog](https://blog.cloudflare.com/october-2021-facebook-outage/) does a hell of an explanation.
 
