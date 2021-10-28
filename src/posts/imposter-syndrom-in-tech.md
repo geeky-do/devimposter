@@ -1,5 +1,5 @@
 ---
-title: I am an imposter
+title: I am an imposter 
 date: '2021-10-10'
 tags: [imposter syndrome, tech, dunning–kruger, knowledge, mental health ] 
 description: I have always suffered from imposter syndrome and I am afraid always will.
@@ -54,7 +54,7 @@ There is a theory that writing a list of things you have done can help with impo
 
 Doubtless, if you have come across the term, then you have come across the "Dunning–Kruger effect," and I can certainly see a correlation there. But I would still say that I feel like an imposter in my bones. I felt it starting in tech, and I think it is still just as strong 11 years later.
 
-![Dunning Kruger effect](../../images/dk4.png)
+![Dunning Kruger effect]({{ site.imageRootURL }}/dk4.png)
 
 If you ask me to plot myself on that chart I would say I am a resident of Mt Stupid only occasionally leaving to slide down to the valley of despair and then run back up to my mountain.
 

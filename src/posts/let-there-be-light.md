@@ -35,7 +35,7 @@ So at that moment I faced a decision am I going to write a tech blog but use som
 
 Wrong. 
 
-![WordPress is slow](../../images/wordpress-slow.png)
+![WordPress is slow]({{ site.imageRootURL }}/wordpress-slow.png)
 
 Exhibit A. The word slow is featured many times. I don't know how others do it but that was it for me. I only helped out with WordPress sites twice in my life and they were indeed slow but I thought *naively* that they were setup badly or something. But the basic starter was slow.
 

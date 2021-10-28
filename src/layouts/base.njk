@@ -20,7 +20,7 @@
       {% endif %}
     </title>
 
-    <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
+    <link rel="icon" type= “image/x-icon” href="{{ site.imageRootURL }}/favicon.ico">
 
     <meta property="og:title" content="{{  title or site.name | escape }}">
     <meta property="og:site_name" content="{{ site.name }}"/>
@@ -51,21 +51,69 @@
     {% endif %}
 
     {# Add mermaid -- start #}
-      <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-      <script>mermaid.initialize({startOnLoad:true});</script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({startOnLoad: true});
+    </script>
     {# Add mermaid -- end #}
 
     {# posthog #}
     <script>
-        const now = Date.now().toString(36)
-        const randomness = Math.random().toString(36).substr(2);
+      const now = Date
+        .now()
+        .toString(36)
+      const randomness = Math
+        .random()
+        .toString(36)
+        .substr(2);
 
-        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-        posthog.init('phc_zWD1LIARPT1eaRy0M5cU4ssQ19ZYgvwhXkdUK6PdZSr', {
-          api_host: 'https://app.posthog.com',
-          loaded: function(posthog) { posthog.identify(now + randomness); }
-        });
-    
+      !function (t, e) {
+        var o,
+          n,
+          p,
+          r;
+        e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) {
+          function g(t, e) {
+            var o = e.split(".");
+            2 == o.length && (t = t[o[0]], e = o[1]),
+            t[e] = function () {
+              t.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+            }
+          }(p = t.createElement("script")).type = "text/javascript",
+          p.async = !0,
+          p.src = s.api_host + "/static/array.js",
+          (r = t.getElementsByTagName("script")[0])
+            .parentNode
+            .insertBefore(p, r);
+          var u = e;
+          for (
+            void 0 !== a
+            ? u = e[a] = []
+            : a = "posthog",
+          u.people = u.people || [],
+          u.toString = function (t) {
+            var e = "posthog";
+            return "posthog" !== a && (e += "." + a),
+            t || (e += " (stub)"),
+            e
+          },
+          u.people.toString = function () {
+            return u.toString(1) + ".people (stub)"
+          },
+          o = "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),
+          n = 0; n < o.length; n++) 
+            g(u, o[n]);
+          e
+            ._i
+            .push([i, s, a])
+        }, e.__SV = 1)
+      }(document, window.posthog || []);
+      posthog.init('phc_zWD1LIARPT1eaRy0M5cU4ssQ19ZYgvwhXkdUK6PdZSr', {
+        api_host: 'https://app.posthog.com',
+        loaded: function (posthog) {
+          posthog.identify(now + randomness);
+        }
+      });
     </script>
 
     {# enable seo tag#}
@@ -147,20 +195,20 @@
               {% endfor %}
             {% endif %}
           </ul>
-          </br>
+        </br>
           © 2021 Dina Youssef
           {% if site.showFooterAttribution %}
-            <p class="footer__attribution">
+          <p class="footer__attribution">
           Theme created by
             <a href="https://github.com/yinkakun/eleventy-duo" target="_blank" rel="noopener noreferrer">Yinka</a>       Powered by <a href="https://www.11ty.dev" target="_blank" rel="noopener">11ty,</a>
-            </p>
-          {% endif %}
+          </p>
+        {% endif %}
 
-        </div>
       </div>
+    </div>
 
-    </footer>
+  </footer>
 
-    {% bundledjs %}
-  </body>
+  {% bundledjs %}
+</body>
 </html>

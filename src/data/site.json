@@ -39,5 +39,6 @@
       "external": true
     }
   ],
-  "showFooterAttribution": true
+  "showFooterAttribution": true,
+  "imageRootURL": "/images"
 }

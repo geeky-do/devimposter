@@ -47,7 +47,7 @@ What I find peculiar is that they locked themselves out as well because their in
 
 They published an [incident report](https://engineering.fb.com/2021/10/04/networking-traffic/outage/) that gives away nothing. However, given the nature of the outage, the likely scenario is that they sent a team to their servers to manually reset because there was no other way to reach those servers.
 
-![A man asking have you tried turning it off and on again](../../images/restart.jpeg "Live footage of engineers fixing things")
+![A man asking have you tried turning it off and on again]({{ site.imageRootURL }}/restart.jpeg "Live footage of engineers fixing things")
 > Live footage of engineers fixing things
 
 # Conclusion

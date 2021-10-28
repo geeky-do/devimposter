@@ -8,7 +8,7 @@ permalink: posts/{{ title | slug }}/index.html
 ---
 
 ## What are they?
-![Birds flying](../../images/birds.jpeg "Birds flying")
+![Birds flying]({{ site.imageRootURL }}/birds.jpeg "Birds flying")
 
 Today I am planning to tackle the tricky subject of database migrations. But this assumes working knowledge of databases in general and it will try to highlight some strategies I use when faced with the need for a migration. So what are they? A migration means you are trying to go from place A to place B. A database migration means we are introducing a change either to the schema i.e how the database is structured or we are updating (or deleting or adding) the content that resides in the database.  Examples below.
 
