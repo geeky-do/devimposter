@@ -21,7 +21,18 @@ Ok, so some phrases that would help you navigate this landmine.
 - DNS: Domain Name System
 - BGP: Border Gateway Protocol
 
-Sorry, not very helpful, so let's break it down a bit with an example. So DNS is an address that helps you find where a dentist is because you have a toothache. So Dentist Tooth is at Dentist Street. So BGP is the actual physical sign on the road of Dentist Street that says here resides Dentist Tooth. So if you go down to  Dentist Street, you can't find the location of  Dentist Tooth. So what does this mean with Facebook? They effectively took themselves offline, the way we all dream about but can't do. So they still existed, but as far as the internet is concerned, they didn't because there was no way to find them. 
+Sorry, not very helpful, so let's break it down a bit.
+
+Sometimes we forget this but the internet is really just a big network of machines talking to one another. Every day new websites join this cosmic horror increasing the complexity. So a system was put in place to make this easier. 
+
+Take this site for example, the domain name is `devimposter.tech` that's just an easy name to remember but the IP of the actual machine this points to is `161.35.218.98`. But we are human beings and not machines so everyone uses the domain name. So what does DNS routing do? It basically translates the domain name to the IP address so you can find the place you are looking for. So every time that you try to visit a site, your internet provider uses a `DNS resolver` to try and find out where you want to go. This is why when you acquire a domain it takes time for it be to discoverable because it takes time to tell all the DNS resolvers that there is a new IP address with this domain name.
+
+BGP routing is another layer intended to help make the internet more manageable. It acts as a global map of the internet. The internet was basically broken into many smaller sections each controlled by an autonomous system (think your internet provider or tech giants like Facebook). These smaller sections can talk to neighboring sections to deliver information to the ones they can't reach themselves. Imagine passing a note in class to your friend who is sitting far away. If one of these systems is convinced that the best place for your message is the trash can then your message will be lost forever. 
+
+So what happened to Facebook? Facebook told the rest of the networks that Facebook is gone. So every time someone tried to reach out to `facebook.com`, DNS resolvers were like 
+
+> Facebook who?
+
 
 But if you want the meaty technical details, then the [CloudFare blog](https://blog.cloudflare.com/october-2021-facebook-outage/) does a hell of an explanation.
 
@@ -29,7 +40,7 @@ But if you want the meaty technical details, then the [CloudFare blog](https://b
 When the outage was two hours old, I was texting with my friend (on iMessage), and we were speculating on the root cause of the outage. Without a second thought, I said, "Configuration change that broke their DNS." I am not a genius, and I didn't troubleshoot why Facebook was down. But in the software industry, extensive outages are usually configuration changes. Why might you ask? We don't test them, and because a valid configuration doesn't mean it's correct or ensures your services remain working. Someone woke up that day and did what they thought would be a routine, non-breaking change. I am aware that there are theories that suggest this was sabotage but most outages are really just honest mistakes. 
 
 # Why do companies make such decisions?
-Facebook is huge, and so is its infrastructure. So they decided to become an autonomous system, which means that their network and its scale are extensive even by tech giants' standards. The more complex your systems are, the less predictability you can have when making such central changes. Their extensive network isn't the only problem but the fact that the internet runs on solutions that have been around since the moment of its inception, but they were never supposed to live this long.
+Facebook is huge, and so is its infrastructure. So they decided to become an autonomous system, which means that their network and its scale are extensive even by tech giants' standards. The more complex your systems are, the less predictability you can have when making such central changes.
 
 What I find peculiar is that they locked themselves out as well because their internal tools where also residing in the same space. 
 # How was it fixed?
