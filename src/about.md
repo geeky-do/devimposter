@@ -1,9 +1,9 @@
 ---
 title: About Dina Youssef
 layout: about.njk
-name: Dina 
+name: Dina
 excerpt: About Dina Youssef
-image: '/images/robin.jpeg'
+image: 'robin.jpeg'
 ---
 
 My name is Dina Youssef, and I suffer from imposter syndrome, as do many people, or so I would like to think as I would hate to be alone in this. I have fought the urge to blog for some time; therefore, I am finally caving in when things are looking up, as it’s always easier to start with a spring in your step.
